@@ -1,0 +1,26 @@
+package Week2programs;
+
+import java.util.Scanner;
+
+public class EncouragementApp {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter your first name: ");
+        String firstName = input.nextLine();
+
+        System.out.print("Enter your middle name: ");
+        String middleName = input.nextLine();
+
+        System.out.print("Enter your last name: ");
+        String lastName = input.nextLine();
+
+        System.out.println();
+        System.out.println("✨ Encouragement Message ✨");
+        System.out.println("Hey " + firstName + " " + middleName + " " + lastName + "!");
+        System.out.println("You’re doing better than you think. Keep going — you’ve got this! 💪🔥");
+        System.out.println("Small steps every day = big wins over time. 🌍🚀");
+
+        input.close();
+    }
+}
